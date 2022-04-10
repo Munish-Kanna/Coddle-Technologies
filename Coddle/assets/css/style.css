@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+    font-family: Lato, 'sans-serif';
+}
+body a{
+    text-decoration: none;
+}
+
+.card{
+    transition: 0.8s;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1200px) {
+
+    .hero_body h6{
+        font-size: 50px !important;
+        font-weight: 500;
+    }
+
+    .hero button{
+        padding: 10px 30px !important;
+        border-radius: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px){
+
+    .describeUs .integrity{
+        margin-top: 20px;
+    }
+
+    .describeUs .expertise{
+        margin-top: 20px;
+    }
+
+    .hero_body h6{
+        font-size: 27px !important;
+        font-weight: 500;
+    }
+
+    .hero button{
+        padding: 10px 30px !important;
+        border-radius: 10px;
+    }
+    
+}
+/* End of Media Queries*/
+
+
+/*Navgation Bar*/
+nav .searchBar{
+    border: none;
+    padding-left: 8px;
+}
+
+nav .nav-link{
+    color: grey;
+}
+
+nav .nav-link:hover{
+    color: #24A0ED  ;
+}
+
+header button{
+    float: right;
+}
+
+nav .searchBar:focus{
+    outline: 1px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    height: 30px;
+}
+
+/*End of navigation Bar*/
+
+
+/* Hero Section*/
+.hero h5{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.hero_body h6{
+    font-size: 60px;
+
+}
+
+.hero button{
+    padding: 15px 60px;
+    border-radius: 15px;
+}
+/*End of Hero Section*/
+
+
+/*About Us Section*/
+.aboutUs h5{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+/*End of About Us Section*/
+
+
+/*groupOf Section*/
+.groupOf h5{
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.groupOf h4{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+section .aboutUs_header{
+    margin-top: 100px;
+}
+/*End of groupOf Section*/
+
+
+/*why Coddle Section*/
+.whyCoddle h5{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.whyCoddle p{
+    line-height: 28px;
+    word-spacing: 5px;
+}
+/*End of why Coddle Section*/
+
+
+/*Describe Us Section*/
+section .card{
+    border: none;
+}
+section .card-header{
+    background-color: white;
+    border: none;
+}
+
+
+.describeUs .card:hover{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: #24A0ED;
+    box-shadow: 3px 2px 18px -1px rgba(0,0,0,0.75);
+}   
+/*End of Describe Us Section*/
+
+
+/* Number Section*/
+.numbers h5{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.numbers h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.numbers .card:hover{
+    transform: scale(1.2);
+    color: #24A0ED;
+}
+
+.numbers i{
+    color: #24A0ED;
+}
+.numbers small{
+    width: 120px;
+    margin-left: 65px;
+}
+
+.numbers h6{
+    font-weight: bold;
+}
+.numbers button{
+    padding: 15px 60px;
+    border-radius: 15px;
+}
+/* End of Number Section*/
+
+
+/* Footer Section */
+footer{
+    background-color: #0f3679;
+    color: white;
+}
+
+footer h5{
+    font-weight: 600;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer ul li a:hover{
+    border-bottom: 2px solid white;
+    color: #24A0ED;
+
+}
+
+footer .widget_d li{
+    font-size: small;
+}
+
+footer i{
+    color: white;
+}
+
+footer i:hover{
+    color: #24A0ED;
+}
+
+.footer_image{
+    position: absolute;
+    text-align: right;
+    margin-top: -30px;
+    
+}
+/* End of Footer Section */
+
+
+
+
+ 
